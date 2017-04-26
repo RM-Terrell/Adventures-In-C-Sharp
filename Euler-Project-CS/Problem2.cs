@@ -32,6 +32,8 @@ namespace Euler_Project_CS
                 alpha = gamma;
             }
 
+            Console.WriteLine(summed);
+
             // Keep the console window open in debug mode.
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
