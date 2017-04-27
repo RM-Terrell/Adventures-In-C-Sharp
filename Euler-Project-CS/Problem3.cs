@@ -10,17 +10,44 @@ What is the largest prime factor of the number 600851475143 ?*/
 
 namespace Euler_Project_CS
 {
-    class Problem3
+    public class Problem3
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            long number = 600851475143; // Desired number to find largest prime factor
+            long result = largestPrimeFactorOf(number);
 
-
-            Console.WriteLine();
+            Console.WriteLine(result);
 
             // Keep the console window open in debug mode.
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
         }
+
+        static long largestPrimeFactorOf(long n)
+        {
+            long largestFactor = 1;
+
+            
+            for (long i = 2; i * i <= n; ++i)
+            {
+                if (n % i == 0) // check if divisor
+                {
+                    largestFactor = i;
+                    
+                    while (n > 1 && n % i == 0)
+                    {
+                        n /= i;
+                    }
+                }
+            }
+
+            if (n > 1)
+            {                
+                largestFactor = n;
+            }
+            return largestFactor;
+        }
+
     }
 }
