@@ -23,7 +23,9 @@ namespace Euler_Project_CS
             int multipleJ = 0;
 
             // Direct approach looping through numbers to find pallindrome. Using helper method.
-            // First tried to do this with one giant class with pallindrome checking inside loops. Results were....not good.
+            // First tried to do this with one giant class with pallindrome checking inside loops. 
+            // Tried converting number into string array, reversing, checking equality all inside loops. 
+            // Results were....not good. Helper method is much better.
 
             for (int i = 100; i < 1000; i++)
             {
@@ -34,7 +36,7 @@ namespace Euler_Project_CS
 
                     if (product.IsPalindrome()
 
-                         && product > maxPalindrome)
+                         && product > maxPalindrome) // Problem is to return largest palindrome
                     {
                         maxPalindrome = product;
                         multipleI = i;
@@ -44,9 +46,8 @@ namespace Euler_Project_CS
             }
 
             Console.WriteLine(maxPalindrome);
-            Console.WriteLine(multipleI);
+            Console.WriteLine(multipleI); //Returns the multiple components
             Console.WriteLine(multipleJ);
-
 
 
             // Keep the console window open in debug mode.
