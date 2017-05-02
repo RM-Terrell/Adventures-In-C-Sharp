@@ -38,7 +38,7 @@ namespace Euler_Project_CS
 
             
             Console.WriteLine("");
-            Console.WriteLine("The smallest number dividable with all number 1-20 is {0}", result);
+            Console.WriteLine(result);
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
 
