@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 /*
  * 
- * Write a C# Sharp program to swap two numbers. Go to the editor
+ * Write a C# Sharp program to swap two numbers. 
 Test Data:
 Input the First Number : 5
 Input the Second Number : 6
