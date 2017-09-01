@@ -33,7 +33,7 @@ namespace MiscProblems.Basics
                 n++;
             }
             // Learning moment. The above for loop sums prime numbers *below* totalSum. Not the first prime numbers equal to totalSum. 
-            // To fix this all i need to do is only move on the for loop if it hits a prime number. Meaning it sums n numbers. Not primes below the number given.
+            // To fix this all i need to do is only move on the for loop if it hits a prime number. Meaning it sums n numbers. Not primes below the n given.
 
             Console.WriteLine("Total sum of primes is " + totalSum);
 
