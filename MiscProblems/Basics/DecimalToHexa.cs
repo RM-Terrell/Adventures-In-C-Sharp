@@ -18,9 +18,15 @@ namespace MiscProblems.Basics
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Enter hexadecimal value to be converted to decimal");
 
-
+            string hexaVal = Console.ReadLine();
             
+            int deciValue = int.Parse(hexaVal, System.Globalization.NumberStyles.HexNumber);
+            
+            Console.WriteLine("Decimal number is: " + deciValue);
+
+
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
         }
