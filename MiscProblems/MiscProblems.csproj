@@ -43,8 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Basics\DecimalToHexa.cs" />
-    <Compile Include="Basics\FileSize.cs" />
+    <Compile Include="Basics\ArrayMultiplication.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
