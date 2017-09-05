@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 /*
- Write a C# program to print the odd numbers from 1 to 99. Prints one number per line. Go to the editor
+ Write a C# program to print the odd numbers from 1 to 99. Prints one number per line. 
 Sample Output:
 Odd numbers from 1 to 99. Prints one number per line.
 1

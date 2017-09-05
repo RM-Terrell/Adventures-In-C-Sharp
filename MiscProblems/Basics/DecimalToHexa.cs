@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*
- Write a C# program to convert a decimal number to hexadecimal number. Go to the editor
+ Write a C# program to convert a decimal number to hexadecimal number. 
 Sample Output:
 Hexadecimal number: 4B0
 Convert to-

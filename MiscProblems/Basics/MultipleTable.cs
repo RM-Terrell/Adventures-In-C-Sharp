@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 /*
  * 
- * Write a C# Sharp program that takes a number as input and print its multiplication table. Go to the editor
+ * Write a C# Sharp program that takes a number as input and print its multiplication table. 
 Test Data:
 Enter the number: 5
 Expected Output:
