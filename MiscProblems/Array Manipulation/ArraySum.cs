@@ -24,7 +24,7 @@ namespace MiscProblems.Basics
             char[] delimiterChars = { ' ', ',', '.', ':', '\t' };
             int arraySum = 0;
 
-            Console.WriteLine("Enter numbers separated by commas to sum");
+            Console.WriteLine("Enter numbers separated to sum");
             string text = Console.ReadLine();
 
             Console.WriteLine("Input: '{0}'", text);
