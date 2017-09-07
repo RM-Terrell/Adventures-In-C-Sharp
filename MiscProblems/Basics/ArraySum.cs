@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 /*
  * 
- * Write a C# program to compute the sum of all the elements of an array of integers. Go to the editor
+ * Write a C# program to compute the sum of all the elements of an array of integers. 
 Test Data:
 Array1: [1, 2, 2, 3, 3, 4, 5, 6, 5, 7, 7, 7, 8, 8, 1]
 Sample Output
 Sum: 69 
 */
+
+    //Updated to take an input array
 
 namespace MiscProblems.Basics
 {
@@ -19,16 +21,31 @@ namespace MiscProblems.Basics
     {
         static void Main(string[] args)
         {
-            int[] Array1 = { 1, 2, 2, 3, 3, 4, 5, 6, 5, 7, 7, 7, 8, 8, 1 };
+            char[] delimiterChars = { ' ', ',', '.', ':', '\t' };
+            int arraySum = 0;
 
-            int ArraySum = 0;
 
-            foreach(int i in Array1)
+
+            Console.WriteLine("Enter numbers separated by commas to sum");
+            string text = Console.ReadLine();
+
+            Console.WriteLine("Input: '{0}'", text);
+
+            string[] stringNums = text.Split(delimiterChars);
+            int[] numArray = new int[stringNums.Length];
+
+            for(int i = 0; i < stringNums.Length; i++)
             {
-                ArraySum += i;
+                numArray[i] = Int32.Parse(stringNums[i]);                
             }
 
-            Console.WriteLine("Array sum is {0}", ArraySum);
+
+            foreach (int i in numArray)
+            {
+                arraySum += i;
+            }
+
+            Console.WriteLine("Sum is {0}", arraySum);
 
 
             Console.WriteLine("Press any key to exit.");
