@@ -13,7 +13,7 @@ Sample Output
 Sum: 69 
 */
 
-    //Updated to take an input array
+//Updated to take an input array from a user and cut out special characters. 
 
 namespace MiscProblems.Basics
 {
@@ -24,21 +24,18 @@ namespace MiscProblems.Basics
             char[] delimiterChars = { ' ', ',', '.', ':', '\t' };
             int arraySum = 0;
 
-
-
             Console.WriteLine("Enter numbers separated by commas to sum");
             string text = Console.ReadLine();
 
             Console.WriteLine("Input: '{0}'", text);
 
-            string[] stringNums = text.Split(delimiterChars);
-            int[] numArray = new int[stringNums.Length];
+            string[] stringArray = text.Split(delimiterChars);
+            int[] numArray = new int[stringArray.Length];
 
-            for(int i = 0; i < stringNums.Length; i++)
+            for(int i = 0; i < stringArray.Length; i++)
             {
-                numArray[i] = Int32.Parse(stringNums[i]);                
+                numArray[i] = Int32.Parse(stringArray[i]);               
             }
-
 
             foreach (int i in numArray)
             {

@@ -18,7 +18,19 @@ namespace MiscProblems.Basics
     {
         static void Main(string[] args)
         {
-            
+            int[] TestArray = { 1, 2, 3, 4, 5, 6, 4, 3, 5, 2 };
+
+            Console.WriteLine("Arry for checking is " + String.Join("," , TestArray));
+
+            if(TestArray[0] == TestArray[TestArray.Length-1]) // Dont forget the "-1" you scrub
+            {
+                Console.WriteLine("Array ends are equal!");
+            }
+
+            else
+            {
+                Console.WriteLine("Array ends are NOT equal!");
+            }
 
 
             Console.WriteLine("Press any key to exit.");
