@@ -43,7 +43,7 @@ namespace MiscProblems.Basics
         public static bool isPrime(int n)
         {
             int x = (int)Math.Floor(Math.Sqrt(n)); 
-            //Reduces computation time by only checking up to the square root. Also excludes division by self.         
+            // Reduces computation time by only checking up to the square root. Also excludes division by self.         
 
             if(n == 1)
             {
@@ -61,7 +61,7 @@ namespace MiscProblems.Basics
             {
                 if (n % i == 0) return false;
             }
-            //All integers divide without remainder by 1 so no need to check that.
+            // All integers divide without remainder by 1 so no need to check that.
 
             return true;
         }

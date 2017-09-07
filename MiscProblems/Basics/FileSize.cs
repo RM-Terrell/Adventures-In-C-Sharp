@@ -23,7 +23,7 @@ namespace MiscProblems.Basics
                 Console.WriteLine("Enter file path for file to chek size of: ");
                 var filePath = Console.ReadLine();
 
-                FileInfo f = new FileInfo(filePath); //Enter file path here
+                FileInfo f = new FileInfo(filePath); // Enter file path here
                 Console.WriteLine("\nSize of a file: " + f.Length.ToString());
 
 

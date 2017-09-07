@@ -26,7 +26,7 @@ namespace MiscProblems.Basics
             var inputString = Console.ReadLine();
 
             var fixedInput = Regex.Replace(inputString, @"[^0-9a-zA-Z]+", " "); 
-            //Trimming special characters before comparison. Found a few ways to do this, chose REGEX for practice
+            // Trimming special characters before comparison. Found a few ways to do this, chose REGEX for practice
 
             var splitted = fixedInput.Split(' ');
 
