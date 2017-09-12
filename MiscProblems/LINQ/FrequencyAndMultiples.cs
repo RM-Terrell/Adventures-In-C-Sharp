@@ -26,7 +26,32 @@ namespace MiscProblems.LINQ
         {
             int[] sourceArray = { 1, 3, 5, 8, 4, 55, 54, 1, 9, 239, 3, 912, 56, 43, 8, 1, 34, 5, 6, 8, 23, 9, 3, 6, 89 };
 
-            //TODO Finish this problem
+            int inputCheck = 0;
+            int freqCount = 0;
+
+            Console.WriteLine("Enter number to check appearance frequency and multiple.");
+
+            inputCheck = int.Parse(Console.ReadLine());
+
+            var freqQuery =
+                from nums in sourceArray
+                where nums == inputCheck
+                select nums;
+
+            foreach (var nums in freqQuery)
+            {
+                freqCount += 1;
+            }
+
+            int inputFreqMultiple = inputCheck * freqCount;
+
+            Console.WriteLine("{0} {1} {2}", inputCheck, freqCount, inputFreqMultiple); // Reversed report order for better clarity. Put frequency after the multiple seemed counter intuitive
+
+            Console.WriteLine("Press any key to exit");
+            Console.ReadKey();
+
+
+
 
         }
     }
