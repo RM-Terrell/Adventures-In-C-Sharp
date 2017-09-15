@@ -5,7 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*
- * Write a program in C# Sharp to Accept the members of a list through the keyboard and display the members more than a specific value. Go to the editor
+ * Write a program in C# Sharp to Accept the members of a list through the keyboard and display 
+the members more than a specific value. 
 Test Data :
 Input the number of members on the List : 5
 Member 0 : 10
