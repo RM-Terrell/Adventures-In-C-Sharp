@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LINQ\UpperCaseFinder.cs" />
+    <Compile Include="Functions\SpacesCounter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -52,7 +52,7 @@
   <ItemGroup>
     <Folder Include="Array Manipulation\" />
     <Folder Include="Basics\" />
-    <Folder Include="Functions\" />
+    <Folder Include="LINQ\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

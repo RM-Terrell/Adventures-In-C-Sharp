@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*
- * Write a program in C# Sharp to find the uppercase words in a string. Go to the editor
+ * Write a program in C# Sharp to find the uppercase words in a string. 
 Test Data :
 Input the string : this IS a STRING
 Expected Output :
