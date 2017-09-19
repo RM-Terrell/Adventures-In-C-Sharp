@@ -13,7 +13,7 @@ Expected Output :
 */
 // Made space a variable instead of hard coded so this could be easily repurposed to search any character.
 
-namespace MiscProblems.Functions
+namespace W3Resources.Functions
 {
     class SpacesCounter
     {

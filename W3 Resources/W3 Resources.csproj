@@ -7,8 +7,8 @@
     <ProjectGuid>{4B0CD341-06C1-4ECB-86CE-B573B4FB6E9D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MiscProblems</RootNamespace>
-    <AssemblyName>MiscProblems</AssemblyName>
+    <RootNamespace>W3Resources</RootNamespace>
+    <AssemblyName>W3Resources</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

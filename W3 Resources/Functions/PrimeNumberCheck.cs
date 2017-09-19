@@ -12,7 +12,7 @@ Expected Output :
 31 is a prime number
 */
 
-namespace MiscProblems.Functions
+namespace W3Resources.Functions
 {
     class PrimeNumberCheck
     {

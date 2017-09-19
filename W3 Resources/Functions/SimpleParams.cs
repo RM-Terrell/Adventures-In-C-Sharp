@@ -13,7 +13,7 @@ Welcome friend John !
 Have a nice day!
 */
 
-namespace MiscProblems.Functions
+namespace W3Resources.Functions
 {
     class SimpleParams
     {

@@ -15,7 +15,7 @@ So, the number 3 ^ (to the power) 2 = 9
 
 // Base C# has no operator for power functions but .NET does. Opted to use .NET solution
 
-namespace MiscProblems.Functions
+namespace W3Resources.Functions
 {
     class PowerCalc
     {

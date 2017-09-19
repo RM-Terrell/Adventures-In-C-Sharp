@@ -13,7 +13,7 @@ Expected Output :
 The sum of two numbers is : 31
 */
 
-namespace MiscProblems.Functions
+namespace W3Resources.Functions
 {
     class Sums
     {

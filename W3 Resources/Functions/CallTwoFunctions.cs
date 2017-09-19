@@ -14,7 +14,7 @@ Have a nice day!
 // I didnt find the instructions for this very clear. 
 // They want two functions made that log to the console, then call those two functions from Main.
 
-namespace MiscProblems.Functions
+namespace W3Resources.Functions
 {
     class CallTwoFunctions
     {

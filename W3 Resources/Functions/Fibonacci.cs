@@ -13,7 +13,7 @@ The Fibonacci series of 5 numbers is :
 0 1 1 2 3
 */
 
-namespace MiscProblems.Functions
+namespace W3Resources.Functions
 {
     class Fibonacci
     {
