@@ -40,13 +40,8 @@ namespace MiscProblems.LINQ
                 Console.WriteLine("Character: {0} Apears: {1}", stringElement.Key, stringElement.Count());
             }
 
-
             Console.WriteLine("Press any key to exit");
-            Console.ReadKey();             
-
-
-        
-
+            Console.ReadKey();  
         }
     }
 }

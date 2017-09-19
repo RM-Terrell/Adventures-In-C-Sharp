@@ -39,8 +39,6 @@ namespace MiscProblems.Functions
 
             Console.WriteLine("Press any key to exit");
             Console.ReadKey();
-
-
         }
     }
 }

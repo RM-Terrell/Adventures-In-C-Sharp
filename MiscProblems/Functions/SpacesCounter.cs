@@ -28,7 +28,6 @@ namespace MiscProblems.Functions
 
             Console.WriteLine("Number of spaces in provided string is: {0} \nPress any key to exit", spaces);
             Console.ReadKey();
-
         }
 
         public static int spaceCounter(string stringToBeSpaceChecked)

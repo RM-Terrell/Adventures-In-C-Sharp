@@ -45,8 +45,7 @@ namespace MiscProblems.LINQ
             Console.WriteLine("\n");
 
             Console.WriteLine("Press any key to exit");
-            Console.ReadKey();
-                             
+            Console.ReadKey();                             
         }
     }
 }

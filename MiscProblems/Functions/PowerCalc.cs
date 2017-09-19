@@ -35,8 +35,7 @@ namespace MiscProblems.Functions
             result = ExponentCalc(baseValue, expValue);
 
             Console.WriteLine("Result is: {0}\nPress any key to exit", result);
-            Console.ReadKey();
-            
+            Console.ReadKey();            
         }
 
         public static double ExponentCalc(double baseValue, double expValue)

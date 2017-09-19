@@ -17,7 +17,7 @@ Friday
 Saturday
 */
 
-    // Basically just make a LINQ query that prints all elements in a string array
+// Understood this as make a LINQ query that prints all elements in a string array
 
 namespace MiscProblems.LINQ
 {
