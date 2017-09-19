@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euler-Project-CS", "Euler-Project-CS\Euler-Project-CS.csproj", "{20401E72-63FB-424D-BE27-8759DCF4F7C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W3 Resources", "MiscProblems\W3 Resources.csproj", "{4B0CD341-06C1-4ECB-86CE-B573B4FB6E9D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W3 Resources", "W3 Resources\W3 Resources.csproj", "{4B0CD341-06C1-4ECB-86CE-B573B4FB6E9D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
