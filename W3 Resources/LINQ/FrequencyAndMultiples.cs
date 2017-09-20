@@ -18,7 +18,7 @@ Number Number*Frequency Frequency
 2 4 2
 */
 
-namespace MiscProblems.LINQ
+namespace W3Resources.LINQ
 {
     class FrequencyAndMultiples
     {

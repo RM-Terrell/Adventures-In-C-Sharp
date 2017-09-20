@@ -12,7 +12,7 @@ Sample Output:
 Size of a file: 31 
 */
 
-namespace MiscProblems.Basics
+namespace W3Resources.Basics
 {
     class FileSize
     {

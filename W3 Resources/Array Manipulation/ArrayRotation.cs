@@ -14,7 +14,7 @@ After rotating array becomes: [2, 8, 1]
 
 //Expanded to handle arrays larger than 3 and take user input instead of fixed.
 
-namespace MiscProblems.Array_Manipulation
+namespace W3Resources.Array_Manipulation
 {
     class ArrayRotation
     {

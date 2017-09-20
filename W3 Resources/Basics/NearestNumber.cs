@@ -15,7 +15,7 @@ Sample Output
 15
 */
 
-namespace MiscProblems.Basics
+namespace W3Resources.Basics
 {
     class NearestNumber
     {

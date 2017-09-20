@@ -15,7 +15,7 @@ The numbers within the range of 1 to 11 are :
 // Works for more than just pure positive numbers and runs off user input instead of hard coded
 
 
-namespace MiscProblems.LINQ
+namespace W3Resources.LINQ
 {
     class NumbersWithinRange
     {

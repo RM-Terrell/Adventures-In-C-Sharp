@@ -14,7 +14,7 @@ w3resourc
 3resource
 */
 
-namespace MiscProblems.Basics
+namespace W3Resources.Basics
 {
     class StringCharacterRemove
     {

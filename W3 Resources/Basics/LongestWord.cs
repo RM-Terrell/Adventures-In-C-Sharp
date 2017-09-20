@@ -14,7 +14,7 @@ following
 
  */
 
-namespace MiscProblems.Basics
+namespace W3Resources.Basics
 {
     class LongestWord
     {

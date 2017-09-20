@@ -19,7 +19,7 @@ Saturday
 
 // Understood this as make a LINQ query that prints all elements in a string array
 
-namespace MiscProblems.LINQ
+namespace W3Resources.LINQ
 {
     class PrintAll
     {

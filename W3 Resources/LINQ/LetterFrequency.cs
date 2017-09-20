@@ -19,7 +19,7 @@ Character e: 1 times
     // Had to look this one up to solve. Was able to devolope a solution by cutting up the string and using array searching, but that didnt involve LINQ.
     // Learned about group. Also that I can call .key ad . count to do the things i was trying to do with arrays manually
 
-namespace MiscProblems.LINQ
+namespace W3Resources.LINQ
 {
     class LetterFrequency
     {

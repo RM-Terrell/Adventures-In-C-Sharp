@@ -15,7 +15,7 @@ Multiply corresponding elements of two arrays:
 
  */
 
-namespace MiscProblems.Basics
+namespace W3Resources.Basics
 {
     class ArrayMultiplication
     {

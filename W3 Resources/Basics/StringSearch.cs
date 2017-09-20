@@ -16,7 +16,7 @@ True
 
 // Going to tweak this a bit and prompt for user input for the string to be searched, the character they want to check. 
 
-namespace MiscProblems.Basics
+namespace W3Resources.Basics
 {
     class StringSearch
     {

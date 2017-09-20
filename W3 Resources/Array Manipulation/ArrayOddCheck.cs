@@ -11,7 +11,7 @@ Test Data:
 Original array: [2, 4, 7, 8, 6]
 Check if an array contains an odd number? True 
 */
-namespace MiscProblems.Array_Manipulation
+namespace W3Resources.Array_Manipulation
 {
     class ArrayOddCheck
     {

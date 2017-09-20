@@ -17,7 +17,7 @@ Expected Output :
 // Problem instructions werent too clear to me at first. 
 // Going to interpret this as "Make a program that finds all values in an array with a square value larger than a certain value.
 
-namespace MiscProblems.LINQ
+namespace W3Resources.LINQ
 {
     class SquareOfElementQuery
     {

@@ -14,7 +14,7 @@ IS
 STRING
 */
 
-namespace MiscProblems.LINQ
+namespace W3Resources.LINQ
 {
     class UpperCaseFinder
     {

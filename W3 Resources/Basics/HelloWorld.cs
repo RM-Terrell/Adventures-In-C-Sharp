@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 /*Back to basics! Print Hello World! to console and print a new line under it without resorting to just another console.writeline*/
 
-namespace MiscProblems.Basics
+namespace W3Resources.Basics
 {
     class HelloWorld
     {

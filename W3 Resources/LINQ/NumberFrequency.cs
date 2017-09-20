@@ -14,7 +14,7 @@ Number 9 appears 2 times
 Number 1 appears 1 times
 */
 
-namespace MiscProblems.LINQ
+namespace W3Resources.LINQ
 {
     class NumberFrequency
     {

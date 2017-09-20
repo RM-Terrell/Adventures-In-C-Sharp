@@ -12,7 +12,7 @@ Convert to-
 Decimal number: 1200 
      */
 
-namespace MiscProblems.Basics
+namespace W3Resources.Basics
 {
     class DecimalToHexa
     {

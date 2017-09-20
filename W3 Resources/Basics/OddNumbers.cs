@@ -18,7 +18,7 @@ Odd numbers from 1 to 99. Prints one number per line.
 99 
 */
 
-namespace MiscProblems.Basics
+namespace W3Resources.Basics
 {
     class OddNumbers
     {

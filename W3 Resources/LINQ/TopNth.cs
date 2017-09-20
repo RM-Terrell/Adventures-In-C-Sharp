@@ -24,7 +24,7 @@ The top 3 records from the list are :
 9 
 */
 
-namespace MiscProblems.LINQ
+namespace W3Resources.LINQ
 {
     class TopNth
     {

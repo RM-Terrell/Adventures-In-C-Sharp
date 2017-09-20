@@ -23,7 +23,7 @@ The numbers greater than 59 are :
 */
 
 
-namespace MiscProblems.LINQ
+namespace W3Resources.LINQ
 {
     class InputArray
     {

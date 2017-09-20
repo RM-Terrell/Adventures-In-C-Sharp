@@ -15,7 +15,7 @@ Sum: 69
 
 //Updated to take an input array from a user and cut out special characters. 
 
-namespace MiscProblems.Basics
+namespace W3Resources.Basics
 {
     class ArraySum
     {

@@ -11,7 +11,7 @@ Sum of the first 500 prime numbers:
 3682913
  */
 
-namespace MiscProblems.Basics
+namespace W3Resources.Basics
 {
     class PrimeNumberSum
     {

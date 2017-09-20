@@ -45,7 +45,6 @@ namespace W3Resources.Functions
                 spaces += 1;
             }
 
-
             return spaces;
         }
     }

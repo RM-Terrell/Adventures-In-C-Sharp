@@ -15,7 +15,7 @@ The city starting with A and ending with M is : AMSTERDAM
 */
 
 
-namespace MiscProblems.LINQ
+namespace W3Resources.LINQ
 {
     class StartAndEnd
     {

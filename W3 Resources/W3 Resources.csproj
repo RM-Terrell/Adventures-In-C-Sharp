@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Functions\PrimeNumberCheck.cs" />
+    <Compile Include="LINQ\StringArrayToString.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -52,7 +52,8 @@
   <ItemGroup>
     <Folder Include="Array Manipulation\" />
     <Folder Include="Basics\" />
-    <Folder Include="LINQ\" />
+    <Folder Include="Conditionals\" />
+    <Folder Include="Functions\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
