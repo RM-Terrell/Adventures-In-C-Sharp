@@ -31,12 +31,9 @@ namespace W3Resources.LINQ
 
             Console.WriteLine("Enter number to check appearance frequency and multiple.");
 
-            inputCheck = int.Parse(Console.ReadLine());
+            inputCheck = int.Parse(Console.ReadLine());            
 
-            var freqQuery =
-                from nums in sourceArray
-                where nums == inputCheck
-                select nums;
+            var freqQuery = sourceArray.Where(n => n == inputCheck);
 
             foreach (var nums in freqQuery)
             {
@@ -45,7 +42,7 @@ namespace W3Resources.LINQ
 
             int inputFreqMultiple = inputCheck * freqCount;
 
-            Console.WriteLine("{0} {1} {2}", inputCheck, freqCount, inputFreqMultiple); // Reversed report order for better clarity. Put frequency after the multiple seemed counter intuitive
+            Console.WriteLine("{0} {1} {2}", inputCheck, freqCount, inputFreqMultiple); // Flipped report order for better clarity. Put frequency after the multiple seemed counter intuitive
 
             Console.WriteLine("Press any key to exit");
             Console.ReadKey();

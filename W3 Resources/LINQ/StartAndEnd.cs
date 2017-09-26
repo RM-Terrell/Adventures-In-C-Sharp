@@ -31,11 +31,8 @@ namespace W3Resources.LINQ
             Console.WriteLine("Enter ending letter");
             inputEnd = Console.ReadLine();
 
-            var wordQuery =
-                from cities in citiesArr
-                where cities.StartsWith(inputStart)
-                where cities.EndsWith(inputEnd)
-                select cities;
+            var wordQuery = 
+                citiesArr.Where(n => n.StartsWith(inputStart) && n.EndsWith(inputEnd));                
 
             foreach (var city in wordQuery)
             {

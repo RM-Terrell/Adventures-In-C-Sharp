@@ -49,8 +49,8 @@ namespace W3Resources.LINQ
             }
 
 
-            string joinedString = String.Join(" ", stringArray
-                .Select(s => s.ToString()).ToArray());
+            string joinedString = 
+                String.Join(" ", stringArray.Select(s => s.ToString()).ToArray());
 
             Console.WriteLine("Here is the string below created with elements of the above array :");
             Console.WriteLine(joinedString);

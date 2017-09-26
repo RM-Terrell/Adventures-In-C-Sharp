@@ -43,9 +43,9 @@ namespace W3Resources.LINQ
             //    new Comparison<int>(
             //                (i2, i1) => i1.CompareTo(i2)));
 
-            sourceArray = sourceArray.OrderByDescending(c => c).ToArray();
+            var arraySorted = sourceArray.OrderByDescending(c => c).ToArray();
 
-            foreach (int record in sourceArray.Take(topN))
+            foreach (int record in arraySorted.Take(topN))
             {
                 Console.WriteLine(record);
             }   

@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*
- * 
  * Write a program in C# Sharp to display the number and frequency of number from giving array.
 Expected Output :
 The number and the Frequency are :
@@ -27,10 +26,7 @@ namespace W3Resources.LINQ
             Console.WriteLine("Enter number to check appearance frequency.");
              inputFreqCheck = int.Parse(Console.ReadLine());
 
-            var freqQuery =
-                from nums in sourceArray
-                where nums == inputFreqCheck
-                select nums;
+            var freqQuery = sourceArray.Where(n => n == inputFreqCheck);                
 
             foreach (var nums in freqQuery)
             {

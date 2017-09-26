@@ -14,10 +14,11 @@ Character a: 1 times
 Character p: 2 times
 Character l: 1 times
 Character e: 1 times
-     */
+*/
 
-    // Had to look this one up to solve. Was able to devolope a solution by cutting up the string and using array searching, but that didnt involve LINQ.
-    // Learned about group. Also that I can call .key ad . count to do the things i was trying to do with arrays manually
+// Had to look this one up to solve. Was able to devolope a solution by cutting up the string and using array searching, but that didnt involve LINQ.
+// Learned about group. Also that I can call .key ad . count to do the things i was trying to do with arrays manually
+// Then I actually learned about lambda expressions and all became good in the world.
 
 namespace W3Resources.LINQ
 {
@@ -30,10 +31,7 @@ namespace W3Resources.LINQ
             Console.WriteLine("Enter a string to find letter frequency");
             inputString = Console.ReadLine();
 
-            var characterCheck =
-                from character in inputString
-                group character by character into output
-                select output;
+            var characterCheck = inputString.GroupBy(n => n); //This is sorcery as far as im concerned                
 
             foreach(var stringElement in characterCheck)
             {

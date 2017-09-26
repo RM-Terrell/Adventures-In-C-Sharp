@@ -1,4 +1,0 @@
-﻿The solutions to these are problems are not meant to demonstrate the fastest, most efficient code strucutres,
- but more for the purpose of exercising and demonstrating mathematical thinking. C# (and.NET) contain many 
- buit-in tools that could shorten and speed up the solved problems, but I am doing these as close to "full manual" 
- for pure learning purposes.

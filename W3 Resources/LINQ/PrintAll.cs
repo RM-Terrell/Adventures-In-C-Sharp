@@ -17,7 +17,8 @@ Friday
 Saturday
 */
 
-// Understood this as make a LINQ query that prints all elements in a string array
+// Understood this as make a LINQ query that prints all elements in a string array. 
+// LINQ query is not even needed here to print all elements from an array but did anyways to follow problem
 
 namespace W3Resources.LINQ
 {
@@ -27,9 +28,7 @@ namespace W3Resources.LINQ
         {
             string[] daysOfTheWeek = { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
 
-            var allQuery =
-                from words in daysOfTheWeek
-                select words;
+            var allQuery = daysOfTheWeek.Select(n => n);                
 
             foreach(var wordElements in allQuery)
             {

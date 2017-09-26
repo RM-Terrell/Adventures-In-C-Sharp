@@ -14,6 +14,7 @@ Expected Output :
 { Number = 5, SqrNo = 25 }
 
  */
+
 // Problem instructions werent too clear to me at first. 
 // Going to interpret this as "Make a program that finds all values in an array with a square value larger than a certain value.
 
@@ -23,21 +24,17 @@ namespace W3Resources.LINQ
     {
         static void Main()
         {
-            int[] sourceArray = { 1, 2, -4, -8, 10, 29, 4, 1, 1, -56, -7, 12, -9, -20, 50, 99 };
+            int[] sourceArray = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
             int upperSquare = 0;
 
-            Console.WriteLine("Enter minimum square value of array element");
+            Console.WriteLine("Enter minimum squared value of array element");
             upperSquare = int.Parse(Console.ReadLine());
 
-            var squareQuery =
-                from nums in sourceArray
-                let square = nums * nums
-                where square > upperSquare
-                select new { nums, square };
+            var squareQuery = sourceArray.Where(n => (n * n) > upperSquare);                
 
-            foreach(var objects in squareQuery)
+            foreach (var value in squareQuery)
             {
-                Console.WriteLine(objects);
+                Console.WriteLine("{{ Number = {0}, Squared Number = {1} }}", value, (value*value));
             }
 
             Console.WriteLine("Press any key to exit");

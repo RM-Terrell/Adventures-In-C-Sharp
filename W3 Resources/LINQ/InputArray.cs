@@ -45,10 +45,7 @@ namespace W3Resources.LINQ
                 numArray[i] = Int32.Parse(stringArray[i]);
             }
 
-            var limitBoundQuery =
-                from vals in numArray
-                where vals > lowerLimit
-                select vals;
+            var limitBoundQuery = numArray.Where(n => n > lowerLimit);
 
             foreach (var items in limitBoundQuery)
             {

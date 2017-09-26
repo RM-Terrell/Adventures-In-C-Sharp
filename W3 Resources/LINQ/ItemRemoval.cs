@@ -51,11 +51,7 @@ namespace W3Resources.LINQ
 
         static IEnumerable<string> ElementRemove(string toRemove, IEnumerable<string> sourceList)
         {
-            var removeQuery =
-                from items in sourceList
-                where items != toRemove
-                select items;
-
+            var removeQuery = sourceList.Where(n => n != toRemove);
             return removeQuery;
         }
 
