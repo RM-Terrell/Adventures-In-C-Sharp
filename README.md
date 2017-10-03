@@ -5,7 +5,9 @@ This repository started as a holding place for my solutions from [The Euler Proj
 
 ## Project Section Guide
 * Euler-Project-CS: contains solutions listed by their number of the Euler Project website solved in C# as console applications.
-* MiscProblems: Sorted by folders, starting with classic 'Hello World!' type problems. Sources of said problems so far come from [W3Resources C# Section](http://www.w3resource.com/csharp-exercises/).
+* W3 Resources: Sorted by folders, contains problems ranging from "Hello world!", to functions, to LINQ, and other C# topics. Sources of said problems come from [W3Resources C# Section](http://www.w3resource.com/csharp-exercises/).
 
 ## Running Solutions
-* When opening in Visual Studio you may initially not see any of the .cs files appearing in solution explorer. You will need to toggle on "see all files" then manually right click -> "include in project" the one you want to compile. As I work I exclude old problem files from the project and compile them one at a time.
+* When opening in Visual Studio you may initially not see any of the .cs files appearing in solution explorer. You will need to toggle on "see all files" then manually right click -> "include in project" the one you want to compile. As I work I exclude old problem files from the project and compile them one at a time. 
+
+* Each .cs file should also be able to be compiled on its own via an online C# compiler. 
