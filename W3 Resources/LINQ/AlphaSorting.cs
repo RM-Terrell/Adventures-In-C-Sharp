@@ -20,9 +20,9 @@ namespace W3Resources.LINQ
         {
             string[] citiesArr = { "Rome", "London", "Nairobi", "Boulder", "Zurich", "New Dehli", "Amsterdam", "Oslo", "Paris" };
 
-            var alphaSort = citiesArr.OrderBy(n => n);
+            var alphaSorted = citiesArr.OrderBy(n => n);
 
-            foreach (var city in alphaSort)
+            foreach (var city in alphaSorted)
             {
                 Console.WriteLine(city);
             }
