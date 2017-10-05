@@ -18,7 +18,7 @@ namespace Euler_Project_CS
 {
     class Problem9
     {
-        static void Main(string[] args)
+        static void Main()
         {
 
             new Problem9().PythTriplet();

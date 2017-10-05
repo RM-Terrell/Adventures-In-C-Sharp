@@ -11,21 +11,21 @@ A palindromic number reads the same both ways. The largest palindrome made from 
 Find the largest palindrome made from the product of two 3-digit numbers.
   */
 
+// Direct approach looping through numbers to find pallindrome. Using helper method.
+// First tried to do this with one giant class with pallindrome checking inside loops. 
+// Tried converting number into string array, reversing, checking equality all inside loops. 
+// Results were....not good. Helper method is much better.
+
 namespace Euler_Project_CS
 {
     class Template
     {
-        static void Main(string[] args)
+        static void Main()
         {
             
             int maxPalindrome = 0;
             int multipleI = 0;
             int multipleJ = 0;
-
-            // Direct approach looping through numbers to find pallindrome. Using helper method.
-            // First tried to do this with one giant class with pallindrome checking inside loops. 
-            // Tried converting number into string array, reversing, checking equality all inside loops. 
-            // Results were....not good. Helper method is much better.
 
             for (int i = 100; i < 1000; i++)
             {
@@ -36,7 +36,7 @@ namespace Euler_Project_CS
 
                     if (product.IsPalindrome()
 
-                         && product > maxPalindrome) // Problem is to return largest palindrome
+                         && product > maxPalindrome) 
                     {
                         maxPalindrome = product;
                         multipleI = i;
@@ -46,11 +46,10 @@ namespace Euler_Project_CS
             }
 
             Console.WriteLine(maxPalindrome);
-            Console.WriteLine(multipleI); //Returns the multiple components
+            Console.WriteLine(multipleI); 
             Console.WriteLine(multipleJ);
 
 
-            // Keep the console window open in debug mode.
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
         }
@@ -65,7 +64,7 @@ namespace Euler_Project_CS
 
                 new List<char>(i.ToString().ToCharArray());
 
-            chars.Reverse(); //Cheated and used ths instead of loop reconstruction like i tried before
+            chars.Reverse(); //Used this instead of loop reconstruction like i tried before
 
 
             return i == int.Parse(new string(chars.ToArray()));

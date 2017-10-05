@@ -35,7 +35,7 @@ namespace Euler_Project_CS
 {
     class Problem8
     {
-        static void Main(string[] args)
+        static void Main()
         {
             //Originally thought to take the number string and cut it up into an array. Then iterate over the array.
             //Soon relized that an unnecessary step. Can work with sub strings instead.

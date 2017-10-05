@@ -19,7 +19,7 @@ namespace W3Resources.Basics
 {
     class ArraySum
     {
-        static void Main(string[] args)
+        static void Main()
         {
             char[] delimiterChars = { ' ', ',', '.', ':', '\t' };
             int arraySum = 0;
@@ -43,7 +43,6 @@ namespace W3Resources.Basics
             }
 
             Console.WriteLine("Sum is {0}", arraySum);
-
 
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();

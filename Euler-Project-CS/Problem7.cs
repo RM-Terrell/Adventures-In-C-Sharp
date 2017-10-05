@@ -15,11 +15,9 @@ namespace Euler_Project_CS
 {
     class Problem7
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            new Problem7().BruteForce(); // Saw someone structure their projects like this to easily run multiple types of solutions without changing Main a lot. Wanted to try it. 
-            //Makes sense because it separates concerns and allows a lot of experimenting more easily.
-            
+            new Problem7().BruteForce(); 
         }
 
         public void BruteForce()
@@ -27,7 +25,7 @@ namespace Euler_Project_CS
             
             int numPrimes = 1;
             int numm = 1;
-            Console.WriteLine("Please enter the number of sequential prime you would like to know");
+            Console.WriteLine("Numbered sequentially from 0, which prime number would you like to know?");
             var nThPrime = int.Parse(Console.ReadLine());
 
             while (numPrimes < nThPrime)
@@ -40,7 +38,7 @@ namespace Euler_Project_CS
                 }
             }
                         
-            Console.WriteLine("Prime number {0} is {1} ", numPrimes, numm);     //Bit of practice with string formatting        
+            Console.WriteLine("Prime number {0} is {1} ", numPrimes, numm);        
             Console.WriteLine("Press any key to exit");
             Console.ReadLine();
         }

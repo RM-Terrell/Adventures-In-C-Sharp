@@ -12,29 +12,29 @@ namespace Euler_Project_CS
 {
     class Problem2
     {
-        static void Main(string[] args)
+        static void Main()
         {
 
-            long alpha = 1;
-            long beta = 1;
-            long gamma = 0;
+            long trailingN = 1;
+            long lastN = 1;
+            long currentN = 0;
             long summed = 0;
 
-            while(gamma < 4000000)
+            while(currentN < 4000000)
             {
-                if((gamma % 2) == 0) //checks if value is even. remove for normal fibonacci
+                if((currentN % 2) == 0) //checks if value is even. remove for normal fibonacci
                 {
-                    summed += gamma;
+                    summed += currentN;
                 }
 
-                gamma = alpha + beta;
-                beta = alpha;
-                alpha = gamma;
+                currentN = trailingN + lastN;
+                lastN = trailingN;
+                trailingN = currentN;
             }
 
             Console.WriteLine(summed);
 
-            // Keep the console window open in debug mode.
+            
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
         }

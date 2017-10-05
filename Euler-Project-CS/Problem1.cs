@@ -13,7 +13,7 @@ namespace Euler_Project_CS
 {
     class Problem1
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int count = 0;
             for(int i = 1; i < 1000; i++)
@@ -23,8 +23,7 @@ namespace Euler_Project_CS
                 }
             }
             Console.WriteLine(count);
-
-            // Keep the console window open in debug mode.
+            
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
         }

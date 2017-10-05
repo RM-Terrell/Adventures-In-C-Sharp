@@ -13,20 +13,25 @@ namespace Euler_Project_CS
 {
     class Problem5
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
-            new Problem5().PrimeFactoring();
+
+            Console.WriteLine("Enter upper limit");
+            int divisorMax = Convert.ToInt32(Console.ReadLine());
+
+            new Problem5().PrimeFactoring(divisorMax);
+
+            Console.WriteLine("Press any key to exit.");
+            Console.ReadKey();
         }
 
-        public void PrimeFactoring()
+        public void PrimeFactoring(int divisorMax)
         {
             //Struggled to develop a solution that didnt involve brute forcing with for loops. Those solutions were very slow.
             //Was pointd towards prime factorization via a google search and implemented it below. High school math all over again
             //Goal now is to find the small set of primes to make all numbers. 
 
-            Console.WriteLine("Enter upper limit");
-            int divisorMax = Convert.ToInt32(Console.ReadLine());  //Decided to make upper bound controllable for testing
-
+            
             int[] p = generatePrimes(divisorMax);
             int result = 1;
 
@@ -39,11 +44,6 @@ namespace Euler_Project_CS
             
             Console.WriteLine("");
             Console.WriteLine(result);
-            Console.WriteLine("Press any key to exit.");
-            Console.ReadKey();
-
-
-
         }
         private int[] generatePrimes(int upperLimit)
         {
