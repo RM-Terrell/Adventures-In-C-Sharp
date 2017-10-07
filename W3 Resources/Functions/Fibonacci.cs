@@ -44,7 +44,7 @@ namespace W3Resources.Functions
             {
                 fibCalced[i] = fibCalced[i - 1] + fibCalced[i - 2];
             }            
-            return fibCalced;
+            return fibCalced;            
         }
     }
 }

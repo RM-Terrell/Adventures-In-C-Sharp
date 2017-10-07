@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euler-Project-CS", "Euler-Project-CS\Euler-Project-CS.csproj", "{20401E72-63FB-424D-BE27-8759DCF4F7C5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W3 Resources", "W3 Resources\W3 Resources.csproj", "{4B0CD341-06C1-4ECB-86CE-B573B4FB6E9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP Practice", "OOP Practice\OOP Practice.csproj", "{63D1D3C7-EECD-4DCC-8DB3-D50A46F918AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +23,15 @@ Global
 		{4B0CD341-06C1-4ECB-86CE-B573B4FB6E9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B0CD341-06C1-4ECB-86CE-B573B4FB6E9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B0CD341-06C1-4ECB-86CE-B573B4FB6E9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63D1D3C7-EECD-4DCC-8DB3-D50A46F918AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63D1D3C7-EECD-4DCC-8DB3-D50A46F918AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63D1D3C7-EECD-4DCC-8DB3-D50A46F918AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63D1D3C7-EECD-4DCC-8DB3-D50A46F918AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CB6DA5A-07DD-47B2-BA3C-B6E5751C4981}
 	EndGlobalSection
 EndGlobal
