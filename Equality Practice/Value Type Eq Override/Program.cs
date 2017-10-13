@@ -34,7 +34,7 @@ namespace Equality_Practice
             //// Both give same results but with very different intermediate language processes
 
 
-            //-----------Over riding equality testing---------------------------//
+            //-----------Overriding equality testing for Value Types---------------------------//
             // Steps: Override object.equals, IEquatable<t>, == and != overloads, override object.gethashcode()
             // Must do all 4
 
