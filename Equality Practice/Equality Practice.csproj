@@ -42,14 +42,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Comparison Implementation\CalorieCount.cs" />
-    <Compile Include="Comparison Implementation\CompMain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Structural Equality\StructEqMain.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Comparison Implementation\" />
     <Folder Include="Ref Type Eq Override\" />
     <Folder Include="Value Type Eq Override\" />
   </ItemGroup>
