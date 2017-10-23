@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Structs\SimpleStruct.cs" />
+    <Compile Include="Structs\SimpleStructStatic.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
