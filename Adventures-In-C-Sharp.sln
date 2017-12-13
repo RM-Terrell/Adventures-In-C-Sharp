@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euler-Project-CS", "Euler-Project-CS\Euler-Project-CS.csproj", "{20401E72-63FB-424D-BE27-8759DCF4F7C5}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP Practice", "OOP Practice\OOP Practice.csproj", "{63D1D3C7-EECD-4DCC-8DB3-D50A46F918AF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Equality Practice", "Equality Practice\Equality Practice.csproj", "{E41E22CC-8B39-4683-B551-DC147A3F4C7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "General-Problems", "General-Problems\General-Problems.csproj", "{2252A76E-FCD5-4776-B7AA-877F702BA3F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{E41E22CC-8B39-4683-B551-DC147A3F4C7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E41E22CC-8B39-4683-B551-DC147A3F4C7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E41E22CC-8B39-4683-B551-DC147A3F4C7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2252A76E-FCD5-4776-B7AA-877F702BA3F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2252A76E-FCD5-4776-B7AA-877F702BA3F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2252A76E-FCD5-4776-B7AA-877F702BA3F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2252A76E-FCD5-4776-B7AA-877F702BA3F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

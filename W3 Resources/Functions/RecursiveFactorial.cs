@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*
- * Write a program in C# Sharp to create a recursive function to find the factorial of a given number. Go to the editor
+ * Write a program in C# Sharp to create a recursive function to find the factorial of a given number.
 Test Data :
 Enter a number: 5
 Expected Output :
